@@ -1,0 +1,586 @@
+{
+ "checked": "2026-10-11",
+ "fixed_line": "Nobody knows the exact reason: Trump's account is run by outside managers. This is the news around the trade, not his motive.",
+ "items": {
+  "MCD": {
+   "text": "On Aug 4, 2026 McDonald's reported mixed results: profit beat expectations, but US sales grew only 0.8% because fewer people visited. The company named a new boss for its US business. The stock was near the low end of its one-year range. Trump's account bought on Aug 10 and again on Aug 21, the same days it bought many other big US companies.",
+   "sources": [
+    [
+     "McDonald's says its U.S. business is falling short as it announces new head of its largest market",
+     "CNBC",
+     "https://www.cnbc.com/2026/08/04/mcdonalds-mcd-q2-2026-earnings.html"
+    ],
+    [
+     "McDonald's US sales growth slows as value push falters",
+     "Reuters",
+     "https://www.reuters.com/business/mcdonalds-us-sales-disappoint-value-deals-fail-draw-enough-diners-2026-08-04/"
+    ],
+    [
+     "Trump reports 517 August trades, including Meta and SpaceX investments",
+     "CNBC",
+     "https://www.cnbc.com/2026/10/08/trump-august-trades-meta-spacex-financial-disclosure.html"
+    ]
+   ]
+  },
+  "MSFT": {
+   "text": "On July 20, 2026 the account sold a big block of Microsoft ($5M–$25M), on the same day it also sold Amazon and Oracle. On Aug 10 it bought Microsoft back: that day the stock rose about 1.7% after Bernstein raised its price target, and there were reports Microsoft would soon launch its own AI chip (Maia 300). More was bought on Aug 17.",
+   "sources": [
+    [
+     "Why is Microsoft stock climbing today?",
+     "Invezz",
+     "https://invezz.com/news/2026/08/10/why-is-microsoft-stock-climbing-today/"
+    ],
+    [
+     "Trump Discloses Over 1,100 Securities Trades in July, Including Large Microsoft and Amazon Sales",
+     "Kalkine",
+     "https://kalkine.com/news/general-news/trump-discloses-over-1100-securities-trades-in-july-including-large-microsoft-and-amazon-sales"
+    ],
+    [
+     "Trump Discloses 517 New Trades, Including Major Microsoft Buys and AMD Sale",
+     "Quiver Quantitative",
+     "https://www.quiverquant.com/news/Trump+Discloses+517+New+Trades%2C+Including+Major+Microsoft+Buys+and+AMD+Sale"
+    ]
+   ]
+  },
+  "ZTS": {
+   "text": "Zoetis makes medicines for pets and farm animals. On Aug 6, 2026 it cut its forecast for the year because fewer pet owners went to the vet, and the stock fell. Trump's account bought on Aug 10, a few days after that drop (it had also bought on July 20). On Aug 21 it sold part again.",
+   "sources": [
+    [
+     "Zoetis cuts annual forecasts as pet healthcare demand slows",
+     "Reuters",
+     "https://www.reuters.com/business/healthcare-pharmaceuticals/zoetis-cuts-annual-forecasts-pet-healthcare-demand-slows-2026-08-06/"
+    ],
+    [
+     "Zoetis stock falls on weak guidance despite earnings beat",
+     "Investing.com",
+     "https://www.investing.com/news/earnings/zoetis-stock-falls-on-weak-guidance-despite-earnings-beat-93CH-4841355"
+    ]
+   ]
+  },
+  "NVDA": {
+   "text": "Around July 20, 2026 chip stocks were falling: the main chip index was more than 20% below its June peak and Nvidia was about 14% below its 2026 high, partly on worries about a new Chinese AI model. The account bought then, and again on Aug 17. On Aug 21 it sold a similar amount, a few days before Nvidia's results on Aug 26, which showed revenue roughly doubling.",
+   "sources": [
+    [
+     "Nvidia Stock NVDA Tests $200 Support as Chinese AI Competition Shakes the Chip Rally",
+     "FX Leaders",
+     "https://www.fxleaders.com/news/2026/07/20/nvidia-stock-nvda-tests-200-support-as-chinese-ai-competition-shakes-the-chip-rally/"
+    ],
+    [
+     "Nvidia forecasts 70% sales growth next year, signals AI spending boom has years left to run",
+     "Reuters",
+     "https://www.reuters.com/business/media-telecom/nvidia-forecasts-quarterly-revenue-above-estimates-2026-08-26/"
+    ]
+   ]
+  },
+  "CMCSA": {
+   "text": "On July 23, 2026 Comcast reported that its streaming service Peacock made a profit for the first time, while it kept losing internet customers. It also announced a plan to split off NBCUniversal and Sky into separate companies. No clear company news on Aug 10 itself, the day the account bought.",
+   "sources": [
+    [
+     "Comcast earnings highlight NBCUniversal strength ahead of split",
+     "CNBC",
+     "https://www.cnbc.com/2026/07/23/comcast-earnings-nbcuniversal-strength-split.html"
+    ],
+    [
+     "Comcast Reports 2nd Quarter 2026 Results",
+     "Comcast",
+     "https://www.cmcsa.com/news-releases/news-release-details/comcast-reports-2nd-quarter-2026-results"
+    ]
+   ]
+  },
+  "META": {
+   "text": "On July 29, 2026 Meta said it would spend even more on AI data centers ($130–145 billion this year) and gave a weak outlook; the stock fell about 9% the next day. By Aug 21 it was still about 17% lower for the year. That day the account bought $5M–$25M of Meta, its biggest trade of August, as part of a large reshuffle.",
+   "sources": [
+    [
+     "Meta Platforms Falls 9% on Soft Guidance as Wall Street Slashes Price Targets",
+     "24/7 Wall St.",
+     "https://247wallst.com/investing/2026/07/30/meta-platforms-falls-9-on-soft-guidance-as-wall-street-slashes-price-targets/"
+    ],
+    [
+     "Trump reports 517 August trades, including Meta and SpaceX investments",
+     "CNBC",
+     "https://www.cnbc.com/2026/10/08/trump-august-trades-meta-spacex-financial-disclosure.html"
+    ]
+   ]
+  },
+  "ABT": {
+   "text": "On Aug 20, 2026, one day before the purchase, Abbott agreed to pay $670 million to settle about 2,000 lawsuits over its baby formula for premature babies. Many other lawsuits are still open. Shortly after, the FDA cleared a new Abbott sensor that tracks blood sugar and ketones.",
+   "sources": [
+    [
+     "Abbott to pay $670 million to settle some preterm infant formula cases",
+     "Reuters",
+     "https://www.reuters.com/legal/litigation/abbott-agrees-670-million-settlement-infant-formula-cases-2026-08-20/"
+    ],
+    [
+     "Abbott reaches agreements to resolve a portion of litigation",
+     "Abbott",
+     "https://abbott.mediaroom.com/2026-08-20-Abbott-reaches-agreements-to-resolve-a-portion-of-litigation-involving-its-specialty-formulas-for-preterm-infants"
+    ]
+   ]
+  },
+  "GIS": {
+   "text": "General Mills (Cheerios, Häagen-Dazs) reported its yearly results on July 1, 2026: sales fell and it sold less volume even after changing prices. The stock was weak going into August. No clear company news right around Aug 21; it may be part of a broad portfolio move.",
+   "sources": [
+    [
+     "General Mills Reports Fiscal 2026 Fourth-quarter Adjusted Results",
+     "General Mills",
+     "https://investors.generalmills.com/press-releases/press-release-details/2026/General-Mills-Reports-Fiscal-2026-Fourth-quarter-Adjusted-Results-in-Line-with-Company-Expectations/default.aspx"
+    ],
+    [
+     "General Mills Repriced Two-Thirds of Its Portfolio and Still Lost Volume",
+     "Food Industry Executive",
+     "https://foodindustryexecutive.com/2026/08/general-mills-repriced-two-thirds-of-its-portfolio-and-still-lost-volume-heres-whats-really-growing-units/"
+    ]
+   ]
+  },
+  "T": {
+   "text": "On July 22, 2026 AT&T reported strong results: more fiber and phone customers, and profit per share up about 20%. It raised its share buybacks for 2026 to about $10 billion. On Aug 21 the account bought $1M–$5M, on the same day as Meta, Netflix, Chevron and others.",
+   "sources": [
+    [
+     "AT&T Delivers Strong Second-Quarter Results",
+     "AT&T",
+     "https://about.att.com/story/2026/2q-earnings.html"
+    ],
+    [
+     "Trump reports 517 August trades, including Meta and SpaceX investments",
+     "CNBC",
+     "https://www.cnbc.com/2026/10/08/trump-august-trades-meta-spacex-financial-disclosure.html"
+    ]
+   ]
+  },
+  "NFLX": {
+   "text": "On July 16, 2026 Netflix gave a weaker outlook than expected and the stock fell more than 7%. In June the account had sold Netflix shares. On Aug 21 it bought $1M–$5M, when the stock was still far below its high. Trump made no new public statement about Netflix in August.",
+   "sources": [
+    [
+     "Netflix earnings forecast disappoints Wall Street, shares tumble",
+     "Reuters",
+     "https://www.reuters.com/business/media-telecom/netflix-third-quarter-earnings-forecast-falls-shy-wall-street-expectations-2026-07-16/"
+    ],
+    [
+     "Trump's Latest Financial Disclosure Shows Significant Sales Of Netflix",
+     "Deadline",
+     "https://deadline.com/2026/08/trump-stock-sales-netflix-disney-warner-bros-1237060884/"
+    ]
+   ]
+  },
+  "LOW": {
+   "text": "On Aug 19, 2026, two days before the purchase, Lowe's reported its results and cut its forecast for the year: store sales were flat. Home Depot reported a day earlier. The account bought Lowe's on Aug 21 but sold Home Depot the same day.",
+   "sources": [
+    [
+     "Lowe's Reports Second Quarter 2026 Sales and Earnings Results",
+     "Lowe's",
+     "https://corporate.lowes.com/newsroom/press-releases/lowes-reports-second-quarter-2026-sales-and-earnings-results-08-19-26"
+    ]
+   ]
+  },
+  "STZ": {
+   "text": "Constellation Brands sells Corona and Modelo beer. Its results at the end of June 2026 beat estimates, but the yearly outlook disappointed, and it said aluminum tariffs on beer cans from Mexico squeeze its margins. The stock was near its one-year low. The account bought on Aug 10; the stock fell further on Aug 17.",
+   "sources": [
+    [
+     "Why is Constellation Brands stock sliding today?",
+     "Investing.com",
+     "https://www.investing.com/news/stock-market-news/why-is-constellation-brands-stock-sliding-today-93CH-4863419"
+    ],
+    [
+     "Constellation Brands Reports First Quarter Fiscal 2027 Financial Results",
+     "Constellation Brands",
+     "https://ir.cbrands.com/news-events/press-releases/detail/341/constellation-brands-reports-first-quarter-fiscal-2027-financial-results"
+    ]
+   ]
+  },
+  "AJG": {
+   "text": "Insurance broker Gallagher reported results on July 30, 2026: revenue grew strongly, but profit margins were thinner and the stock fell about 3% the next day. On Aug 17 an analyst (Argus) raised his price target. No clear company news on Aug 10 itself, when the account bought.",
+   "sources": [
+    [
+     "Arthur J. Gallagher & Co. Announces Second Quarter 2026 Financial Results",
+     "Gallagher",
+     "https://investor.ajg.com/news/news-details/2026/Arthur-J--Gallagher--Co--Announces-Second-Quarter-2026-Financial-Results/default.aspx"
+    ],
+    [
+     "Arthur J. Gallagher (AJG) Stock Drops As Revenue Jumps But Margins Thin",
+     "Simply Wall St",
+     "https://simplywall.st/stocks/us/insurance/nyse-ajg/arthur-j-gallagher/news/arthur-j-gallagher-ajg-stock-drops-as-revenue-jumps-but-marg"
+    ]
+   ]
+  },
+  "COP": {
+   "text": "On Aug 3, 2026 Trump posted that Chevron was back in Venezuela. On Aug 21 the account bought $1M–$5M of ConocoPhillips and the same of Chevron, its biggest trades in these two oil companies this year. On Aug 28 Trump announced an oil agreement with Venezuela. Oil was above $87 a barrel at the time.",
+   "sources": [
+    [
+     "Trump's August Stock Trades Reached the Public in October",
+     "Capitol Markets",
+     "https://capitolmarkets.org/news/trump-august-2026-trades"
+    ],
+    [
+     "Trump reports 517 August trades, including Meta and SpaceX investments",
+     "CNBC",
+     "https://www.cnbc.com/2026/10/08/trump-august-trades-meta-spacex-financial-disclosure.html"
+    ]
+   ]
+  },
+  "CVX": {
+   "text": "On Aug 3, 2026 Trump posted about Chevron's boss: 'they threw Mike and Chevron out of Venezuela, but now they're back'. On Aug 21 the account bought $1M–$5M of Chevron, its biggest Chevron trade this year. A week later, on Aug 28, Trump announced an oil agreement with Venezuela, which the White House compared to how Chevron works there.",
+   "sources": [
+    [
+     "Trump's August Stock Trades Reached the Public in October",
+     "Capitol Markets",
+     "https://capitolmarkets.org/news/trump-august-2026-trades"
+    ],
+    [
+     "Trump reports 517 August trades, including Meta and SpaceX investments",
+     "CNBC",
+     "https://www.cnbc.com/2026/10/08/trump-august-trades-meta-spacex-financial-disclosure.html"
+    ]
+   ]
+  },
+  "INTU": {
+   "text": "Intuit (TurboTax) had a weak tax season and its stock dropped about 20%; in July 2026 it was far below its peak and shareholders filed a lawsuit over it. The company also cut about 17% of its staff. The account bought $1M–$5M on July 20, the same day it bought other software companies like Salesforce.",
+   "sources": [
+    [
+     "Intuit Inc. Sued for Securities Fraud After Reporting Weak Tax Season Revenue",
+     "Business Wire via Morningstar",
+     "https://www.morningstar.com/news/business-wire/20260713519990/intu-breaking-news-intuit-inc-sued-for-securities-fraud-after-reporting-weak-tax-season-revenue-precipitating-20-stock-drop-investors-notified-to-contact-bfa-law"
+    ],
+    [
+     "Everything Trump Bought And Sold In July",
+     "Substack (ztradezpenny)",
+     "https://ztradezpenny.substack.com/p/everything-trump-bought-and-sold"
+    ]
+   ]
+  },
+  "DIS": {
+   "text": "On Aug 5, 2026 Disney reported better profit than expected, with streaming profit more than doubling, and raised its buybacks. In August Disney/ABC also sued the FCC, saying the agency was pressuring it after Trump complained about ABC shows. The account bought on Aug 21.",
+   "sources": [
+    [
+     "Disney Stock Casts a Profit Spell as Streaming Earnings Double",
+     "TipRanks",
+     "https://www.tipranks.com/news/disney-stock-casts-a-profit-spell-as-streaming-earnings-double-to-712-million-dis-stock-flies-higher"
+    ],
+    [
+     "Disney and ABC sue the FCC, calling its actions retaliatory",
+     "CNN",
+     "https://www.cnn.com/2026/08/18/media/disney-abc-fcc-trump-lawsuit-the-view-retaliatory"
+    ]
+   ]
+  },
+  "WMT": {
+   "text": "On Aug 20, 2026, one day before the purchase, Walmart reported strong results: online sales up 23% and advertising up 38%. It raised its forecast for the year.",
+   "sources": [
+    [
+     "Walmart Releases Q2 FY27 Earnings",
+     "Walmart",
+     "https://corporate.walmart.com/news/2026/08/20/walmart-releases-q2-fy27-earnings"
+    ]
+   ]
+  },
+  "CRM": {
+   "text": "Around July 20, 2026 Salesforce stock was about half of its high, as investors doubted its AI products would speed up growth. The account bought $1M–$5M that day. One day later Morgan Stanley downgraded the stock for that same reason.",
+   "sources": [
+    [
+     "Salesforce AI push isn't enough to save shares, Morgan Stanley says",
+     "CNBC",
+     "https://www.cnbc.com/2026/07/21/salesforce-ai-push-isnt-enough-to-save-shares-morgan-stanley-says.html"
+    ],
+    [
+     "Everything Trump Bought And Sold In July",
+     "Substack (ztradezpenny)",
+     "https://ztradezpenny.substack.com/p/everything-trump-bought-and-sold"
+    ]
+   ]
+  },
+  "MRVL": {
+   "text": "In mid-July 2026 chip stocks had fallen hard. On July 20 they bounced and Marvell rose about 3%. Its data-center business was growing fast thanks to AI. The account bought $1M–$5M that day.",
+   "sources": [
+    [
+     "Marvell Technology (NASDAQ: MRVL) Rallies 3.2% as Semiconductor Stocks Stage Broad Bounce",
+     "Kalkine",
+     "https://kalkine.com/news/technology/marvell-technology-nasdaq-mrvl-rallies-32-as-semiconductor-stocks-stage-broad-bounce"
+    ],
+    [
+     "Nvidia Stock NVDA Tests $200 Support as Chinese AI Competition Shakes the Chip Rally",
+     "FX Leaders",
+     "https://www.fxleaders.com/news/2026/07/20/nvidia-stock-nvda-tests-200-support-as-chinese-ai-competition-shakes-the-chip-rally/"
+    ]
+   ]
+  },
+  "CRWD": {
+   "text": "No clear company news right on July 20, 2026. CrowdStrike, a cybersecurity company, had pulled back from its record high along with other software stocks. The account bought it the same day as other software names (Datadog, Palo Alto Networks). Its next results came on Aug 26.",
+   "sources": [
+    [
+     "Everything Trump Bought And Sold In July",
+     "Substack (ztradezpenny)",
+     "https://ztradezpenny.substack.com/p/everything-trump-bought-and-sold"
+    ]
+   ]
+  },
+  "MDT": {
+   "text": "No clear Medtronic news right around Aug 21, 2026; it may be part of a broad portfolio move. Its next results came on Sept 1, after the purchase.",
+   "sources": [
+    [
+     "Medtronic reports first quarter fiscal 2027 results",
+     "Nasdaq",
+     "https://www.nasdaq.com/press-release/medtronic-reports-first-quarter-fiscal-2027-results-delivers-broad-based-portfolio"
+    ]
+   ]
+  },
+  "SPACEX": {
+   "text": "On Aug 18, 2026 the account bought $1M–$5M of SpaceX bonds (5.35% interest, due 2031). This is a loan to the company, not shares. Two days later, on Aug 20, Trump signed a national space policy that aims for more than 1,000 launches a year by 2030. SpaceX is a big launch provider for NASA and the Pentagon.",
+   "sources": [
+    [
+     "Trump reports 517 August trades, including Meta and SpaceX investments",
+     "CNBC",
+     "https://www.cnbc.com/2026/10/08/trump-august-trades-meta-spacex-financial-disclosure.html"
+    ]
+   ]
+  },
+  "AMD": {
+   "text": "On Aug 4, 2026 AMD reported record sales (up 50%), but the outlook was not as high as some hoped, and the stock fell more than 7%. The account sold $1M–$5M on Aug 21, the same day it bought a lot of Meta. A week later there were reports of possible new chip tariffs.",
+   "sources": [
+    [
+     "AMD Beat a Blowout Quarter and the Stock Fell Anyway",
+     "AInvest",
+     "https://www.ainvest.com/news/amd-beat-blowout-quarter-stock-fell-analyst-reset-shows-2608/"
+    ],
+    [
+     "Trump reports 517 August trades, including Meta and SpaceX investments",
+     "CNBC",
+     "https://www.cnbc.com/2026/10/08/trump-august-trades-meta-spacex-financial-disclosure.html"
+    ]
+   ]
+  },
+  "AMZN": {
+   "text": "On July 20, 2026 tech stocks rallied and the account sold $5M–$25M of Amazon, one of its two biggest trades in July (the other was Microsoft). Amazon reported strong cloud growth on July 30. Three days after the sale, the account bought back a very small amount.",
+   "sources": [
+    [
+     "Trump Discloses Over 1,100 Securities Trades in July, Including Large Microsoft and Amazon Sales",
+     "Kalkine",
+     "https://kalkine.com/news/general-news/trump-discloses-over-1100-securities-trades-in-july-including-large-microsoft-and-amazon-sales"
+    ],
+    [
+     "Amazon.com Announces Second Quarter Results",
+     "Amazon",
+     "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/"
+    ]
+   ]
+  },
+  "AVGO": {
+   "text": "On Aug 21, 2026 news came out that Broadcom was arranging $70 billion or more in debt to fund AI chips for Anthropic and others; the stock rose about 1%. Before that it had dropped on worries that Marvell would win part of Google's chip business. The account sold that same day.",
+   "sources": [
+    [
+     "Broadcom debt deal expected to reach upwards of $70 billion: sources",
+     "CNBC",
+     "https://www.cnbc.com/2026/08/21/broadcom-debt-deal-expected-to-reach-upwards-of-70-billion-sources.html"
+    ]
+   ]
+  },
+  "BA": {
+   "text": "On July 28, 2026 Boeing reported more plane deliveries and positive cash flow. In August its engineers' union moved toward a possible strike in October. The account sold on Aug 21, along with Home Depot, T-Mobile and others the same day.",
+   "sources": [
+    [
+     "Boeing Reports Second Quarter Results",
+     "Boeing",
+     "https://boeing.mediaroom.com/2026-07-28-Boeing-Reports-Second-Quarter-Results"
+    ],
+    [
+     "Boeing Is Building 737s Faster Than It Has in Years. But Its Engineers Just Authorized an October Strike.",
+     "The Motley Fool",
+     "https://www.fool.com/investing/2026/08/30/boeing-is-building-737s-faster-than-it-has-in-years-but-its-engineers-just-authorized-an-october-strike/"
+    ]
+   ]
+  },
+  "CDW": {
+   "text": "The account bought CDW (an IT equipment seller) on July 20, 2026. On Aug 5 CDW reported sales up 10% and raised its forecast. The account sold again on Aug 21. No clear company news around the sale date.",
+   "sources": [
+    [
+     "CDW Reports Second Quarter 2026 Earnings",
+     "CDW",
+     "https://investor.cdw.com/news/news-details/2026/CDW-Reports-Second-Quarter-2026-Earnings/default.aspx"
+    ]
+   ]
+  },
+  "CHD": {
+   "text": "The account bought Church & Dwight (Arm & Hammer) on July 20, 2026. On July 31 the company reported solid sales and raised its forecast; the stock moved only a little. On Aug 21 the account sold $1M–$5M again. No clear company news around the sale date.",
+   "sources": [
+    [
+     "Church & Dwight Delivers Strong Second Quarter Results",
+     "Church & Dwight",
+     "https://investor.churchdwight.com/Investors/news/news-details/2026/Church--Dwight-Delivers-Strong-Second-Quarter-Results/default.aspx"
+    ],
+    [
+     "Trump reports 517 August trades, including Meta and SpaceX investments",
+     "CNBC",
+     "https://www.cnbc.com/2026/10/08/trump-august-trades-meta-spacex-financial-disclosure.html"
+    ]
+   ]
+  },
+  "COST": {
+   "text": "In early July 2026 Costco reported June sales up 10.6%, but growth was slower than in May and investors worried the stock was expensive. The account sold $1M–$5M on July 20.",
+   "sources": [
+    [
+     "Costco Wholesale Corporation Reports June Sales Results",
+     "Costco",
+     "https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-June-Sales-Results-and-Announces-Quarterly-Cash-Dividend/default.aspx"
+    ],
+    [
+     "Trump Discloses Over 1,100 Securities Trades in July",
+     "Kalkine",
+     "https://kalkine.com/news/general-news/trump-discloses-over-1100-securities-trades-in-july-including-large-microsoft-and-amazon-sales"
+    ]
+   ]
+  },
+  "DDOG": {
+   "text": "The account bought Datadog on July 20, 2026. On Aug 6 Datadog beat expectations, but the stock still fell about 19% because its outlook pointed to slower growth. The account sold on Aug 21.",
+   "sources": [
+    [
+     "Datadog shares plummet despite expectation-topping quarterly results",
+     "SiliconANGLE",
+     "https://siliconangle.com/2026/08/06/datadog-shares-plummet-despite-expectation-topping-quarterly-results/"
+    ]
+   ]
+  },
+  "DELL": {
+   "text": "Trump publicly told people to 'go out and buy a Dell computer' (Feb 19, 2026) and repeated it on May 8 and July 6. His account had bought Dell in February. By August Dell stock had risen hugely on AI server demand. The account sold on Aug 21 and Aug 28.",
+   "sources": [
+    [
+     "Trump keeps telling Americans to 'buy a Dell.' His latest filing reveals his account sold up to $1M of Dell stock",
+     "Yahoo Finance",
+     "https://finance.yahoo.com/markets/stocks/articles/trump-keeps-telling-americans-buy-235000210.html"
+    ],
+    [
+     "Michael Dell courted Trump early. His company has reaped rewards",
+     "CNBC",
+     "https://www.cnbc.com/2026/05/28/michael-dell-trump-accounts-dod.html"
+    ]
+   ]
+  },
+  "FTNT": {
+   "text": "On July 29, 2026 Fortinet reported strong results and raised its forecast. In August the stock slipped as investors took profits in cybersecurity stocks. The account sold on Aug 21. No clear company news on the sale date.",
+   "sources": [
+    [
+     "Fortinet Reports Strong Second Quarter 2026 Financial Results",
+     "Fortinet",
+     "https://www.fortinet.com/corporate/about-us/newsroom/press-releases/2025/fortinet-reports-strong-second-quarter-2026-financial-results"
+    ],
+    [
+     "Fortinet Slides as Profit-Taking and Tech Weakness Weigh on Shares",
+     "Quiver Quantitative",
+     "https://www.quiverquant.com/news/Fortinet+Slides+as+Profit-Taking+and+Tech+Weakness+Weigh+on+Shares"
+    ]
+   ]
+  },
+  "HD": {
+   "text": "On Aug 18, 2026 Home Depot reported store sales up 1.7% and kept its yearly forecast. Three days later, on Aug 21, the account sold Home Depot and bought Lowe's.",
+   "sources": [
+    [
+     "Home Depot (HD) Q2 2026 earnings",
+     "CNBC",
+     "https://www.cnbc.com/2026/08/18/home-depot-hd-q2-2026-earnings.html"
+    ]
+   ]
+  },
+  "ICE": {
+   "text": "No clear company news right on July 20, 2026, when the account sold Intercontinental Exchange (owner of the New York Stock Exchange). On July 30 ICE reported results and announced it would buy MarketAxess for $5.7 billion.",
+   "sources": [
+    [
+     "ICE to buy MarketAxess in $5.7 billion deal",
+     "CNBC",
+     "https://www.cnbc.com/2026/07/30/intercontinental-exchange-to-buy-marketaxess.html"
+    ]
+   ]
+  },
+  "KMB": {
+   "text": "Kimberly-Clark (Huggies, Kleenex) was busy with its $40 billion purchase of Kenvue (Tylenol). The account bought on July 20, 2026. On Aug 4 the company lowered its yearly outlook, but the stock still rose about 4% that day. The account sold on Aug 21.",
+   "sources": [
+    [
+     "Kimberly-Clark Announces Second Quarter and First Half 2026 Results",
+     "Nasdaq",
+     "https://www.nasdaq.com/press-release/kimberly-clark-announces-second-quarter-and-first-half-2026-results-updates-2026"
+    ],
+    [
+     "Kimberly-Clark seeks EU approval for $40 billion Kenvue deal",
+     "Reuters",
+     "https://www.reuters.com/legal/transactional/kimberly-clark-seeks-eu-approval-40-billion-kenvue-deal-2026-08-28/"
+    ]
+   ]
+  },
+  "LII": {
+   "text": "In early August 2026 Lennox (heating and air-conditioning) cut its profit forecast because sales for homes dropped 12%. The stock fell about 24% in a month. The account sold on Aug 21.",
+   "sources": [
+    [
+     "Lennox (LII) Q2 2026 Earnings Call Transcript",
+     "The Motley Fool",
+     "https://www.fool.com/earnings/call-transcripts/2026/08/07/lennox-lii-q2-2026-earnings-call-transcript/"
+    ],
+    [
+     "Lennox International (LII) Stock Falls -24% Over 30 Days on Residential Weakness",
+     "Tickeron",
+     "https://tickeron.com/blogs/lennox-international-lii-stock-falls-24-over-30-days-on-residential-weakness-15974/"
+    ]
+   ]
+  },
+  "MCHP": {
+   "text": "The account bought Microchip on July 20, 2026. On Aug 6 Microchip reported sales up 38% and a strong outlook; the stock rose about 14% in a few days. The account sold on Aug 21, after that jump.",
+   "sources": [
+    [
+     "Microchip Technology Announces Financial Results for First Quarter of Fiscal Year 2027",
+     "Microchip",
+     "https://ir.microchip.com/news-events/press-releases/detail/1409/microchip-technology-announces-financial-results-for-first-quarter-of-fiscal-year-2027"
+    ],
+    [
+     "Microchip's Data Center Revenue Grew 98% Last Quarter",
+     "The Motley Fool",
+     "https://www.fool.com/investing/2026/08/10/microchips-data-center-revenue-grew-98-last-quarte/"
+    ]
+   ]
+  },
+  "ORCL": {
+   "text": "On July 20, 2026 Oracle hit a one-year low after S&P cut its credit rating to one step above junk. Worries: huge spending on AI data centers, rising debt, and dependence on OpenAI. The account sold $1M–$5M that same day.",
+   "sources": [
+    [
+     "Oracle stock falls 3% to 52-week low: what's ailing the company?",
+     "Invezz",
+     "https://invezz.com/news/2026/07/20/oracle-stock-falls-3-to-52-week-low-whats-ailing-the-company/"
+    ],
+    [
+     "Oracle Just Hit a Fresh 52-Week Low and Had Its Credit Cut Toward Junk",
+     "Yahoo Finance",
+     "https://finance.yahoo.com/markets/stocks/articles/oracle-just-hit-fresh-52-170700819.html"
+    ]
+   ]
+  },
+  "PANW": {
+   "text": "The account bought Palo Alto Networks on July 20, 2026 and sold on Aug 21 and Aug 28. No clear company news around the sale; its results came on Sept 1, after the sales.",
+   "sources": [
+    [
+     "Palo Alto Networks Reports Fiscal Fourth Quarter and Fiscal Year 2026 Financial Results",
+     "PR Newswire",
+     "https://www.prnewswire.com/news-releases/palo-alto-networks-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results-302866744.html"
+    ]
+   ]
+  },
+  "TDG": {
+   "text": "The account bought TransDigm (aircraft parts) on July 20, 2026. On Aug 4 it beat expectations and raised its forecast, but the stock fell on worries about debt and margins. The account sold on Aug 21.",
+   "sources": [
+    [
+     "TransDigm's (TDG) Earnings Soared, So Why Did The Stock Sink?",
+     "Insider Monkey",
+     "https://www.insidermonkey.com/blog/transdigms-tdg-earnings-soared-so-why-did-the-stock-sink-1809236/"
+    ]
+   ]
+  },
+  "TMUS": {
+   "text": "On Aug 14, 2026 Wolfe Research downgraded T-Mobile, saying AT&T and Verizon were competing harder and Starlink could hurt its home internet. A week later, on Aug 21, the account sold T-Mobile and bought $1M–$5M of AT&T.",
+   "sources": [
+    [
+     "T-Mobile downgraded to Peer Perform from Outperform at Wolfe Research",
+     "TipRanks / The Fly",
+     "https://www.tipranks.com/news/the-fly/t-mobile-downgraded-to-peer-perform-from-outperform-at-wolfe-research-thefly-news"
+    ],
+    [
+     "Trump reports 517 August trades, including Meta and SpaceX investments",
+     "CNBC",
+     "https://www.cnbc.com/2026/10/08/trump-august-trades-meta-spacex-financial-disclosure.html"
+    ]
+   ]
+  }
+ }
+}
