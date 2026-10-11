@@ -60,6 +60,14 @@ a{color:#0b5a8a}.disc{margin-top:40px;font-size:.8rem;color:#666}
 .logo.ini{background:#17607F;color:#fff;border-radius:50%;font-weight:800;font-size:1.3rem;border:none}
 .card .tk{flex:1;min-width:0;font-size:1.6rem;overflow-wrap:anywhere}.lbl{flex:0 0 auto}.lbl{font-size:1.25rem;font-weight:800;color:#fff;padding:6px 18px;border-radius:12px}.lbl.buy{background:var(--green)}.lbl.sell{background:var(--red)}
 .cards{grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+.tk-hero{display:flex;flex-direction:column;align-items:center;text-align:center;margin:30px 0 10px}
+.tk-hero .logo{width:140px;height:140px;flex-basis:140px;border-radius:28px}.tk-hero .logo img{max-width:116px;max-height:116px}.tk-hero .logo.ini{border-radius:50%;font-size:2.8rem}
+.tk-hero .tp-tk{font-size:3.4rem;margin-top:14px}.tk-hero .tp-co{font-size:1.2rem}
+.verdict{display:flex;align-items:center;justify-content:center;width:min(520px,100%);height:200px;margin:28px auto 0;border-radius:32px;color:#fff;font-size:5.5rem;font-weight:800;letter-spacing:.02em}
+.verdict.buy{background:var(--green)}.verdict.sell{background:var(--red)}
+.whybtn{display:inline-block;margin:26px auto 0;font-size:1.4rem;font-weight:600;color:var(--petrol);text-decoration:none;border:2px solid var(--petrol);border-radius:16px;padding:10px 30px}
+.whybtn:hover{background:#eef4f7}
+.why-top{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin:22px 0 6px}.why-top .logo{width:64px;height:64px}.why-top .tp-tk{font-size:2rem}.why-top .lbl{font-size:1.2rem}
 </style></head><body><div class="wrap">
 <div class="hd"><h1>Trump Stock Trades</h1><div class="ins">Insider info</div><div class="sub">There’s something you should know too</div></div>
 
@@ -77,6 +85,7 @@ a{color:#0b5a8a}.disc{margin-top:40px;font-size:.8rem;color:#666}
 <div class="cards" id="cards-late"></div><p class="disc">Advice only, not a buy recommendation. Disclosures can arrive up to 45 days late.</p></section>
 
 <section class="view" id="v-ticker"><div class="tp-bar"><button class="back" id="tp-close">✕ Close tab</button><a class="back" href="#menu">← Back to list</a><span class="small muted" id="tp-hint"></span></div><div id="tp"></div><p class="disc">Advice only, not a buy recommendation. Disclosures can arrive up to 45 days late.</p></section>
+<section class="view" id="v-why"><div class="tp-bar"><a class="back" id="why-back" href="#">← Back</a></div><div id="why"></div><p class="disc">Advice only, not a buy recommendation. Disclosures can arrive up to 45 days late.</p></section>
 <section class="view" id="v-ontime">
 <div class="backrow"><button class="back" data-nav="menu">← Back</button><h2 class="vt on">On time</h2></div>
 <p class="intro">Trump’s account <b>bought</b> these and no sale has been seen yet. Click a card for the chart.</p>
@@ -96,16 +105,17 @@ const idxOf={};D.prices.dates.forEach((d,i)=>idxOf[d]=i);
 const TR={};D.trades.forEach(t=>(TR[t.t]=TR[t.t]||[]).push(t));Object.values(TR).forEach(a=>a.sort((x,y)=>x.d<y.d?-1:1));
 const ROW={};D.rows.forEach(r=>ROW[r.t]=r);
 const LATE=['bought and sold again','sold only'];
-const VIEWS=['start','menu','late','ontime','ticker'];
+const VIEWS=['start','menu','late','ontime','ticker','why'];
 // id in URL: ticker, or SPACEX for the private bond
 const tid=r=>r.priced?r.t:'SPACEX';
 const byId={};D.rows.forEach(r=>byId[tid(r)]=r);
 function route(){const h=decodeURIComponent(location.hash.slice(1));
-  if(h.startsWith('t=')){const r=byId[h.slice(2).toUpperCase()];if(r)return show('ticker',r);}
+  if(h.startsWith('t=')){const [id,...fl]=h.slice(2).split('&');const r=byId[id.toUpperCase()];if(r)return show(fl.includes('why')?'why':'ticker',r);}
+  if(h.startsWith('why=')){const r=byId[h.slice(4).toUpperCase()];if(r)return show('why',r);}
   show(h||'start');}
-function show(v,r){if(!VIEWS.includes(v)||(v==='ticker'&&!r))v='start';document.querySelectorAll('.view').forEach(x=>x.classList.toggle('on',x.id==='v-'+v));window.scrollTo(0,0);
-  document.title=v==='ticker'?`${name(r)} – Trump Stock Trades`:'Trump Stock Trades';
-  if(v==='late')renderCards('late');if(v==='ontime')renderCards('on');if(v==='ticker')renderTicker(r);}
+function show(v,r){if(!VIEWS.includes(v)||((v==='ticker'||v==='why')&&!r))v='start';document.querySelectorAll('.view').forEach(x=>x.classList.toggle('on',x.id==='v-'+v));window.scrollTo(0,0);
+  document.title=v==='ticker'?`${name(r)} – Trump Stock Trades`:v==='why'?`Why ${name(r)} – Trump Stock Trades`:'Trump Stock Trades';
+  if(v==='late')renderCards('late');if(v==='ontime')renderCards('on');if(v==='ticker')renderTicker(r);if(v==='why')renderWhy(r);}
 document.addEventListener('click',e=>{const b=e.target.closest('[data-nav]');if(b){location.hash=b.dataset.nav;}});
 window.addEventListener('hashchange',route);
 function series(t,from){const P=D.prices.close[t],x=[],y=[];D.prices.dates.forEach((d,i)=>{if(d>=from&&P[i]!=null){x.push(d);y.push(P[i]);}});return{x,y};}
@@ -130,8 +140,15 @@ function renderCards(mode){
 }
 $('#tp-close').onclick=()=>{window.close();setTimeout(()=>{$('#tp-hint').textContent='This tab was not opened by the list – use “Back to list” or close it yourself.';},300);};
 function renderTicker(r){
+  const late=isLate(r);
+  $('#tp').innerHTML=`<div class="tk-hero">${logo(r)}<div class="tp-tk">${name(r)}</div><div class="tp-co">${r.c}</div>
+  <div class="verdict ${late?'sell">Sell':'buy">Buy'}</div>
+  <a class="whybtn" href="#t=${tid(r)}&why">See why →</a></div>`;
+}
+function renderWhy(r){
   const t=r.t,tr=TR[t]||[],late=isLate(r);
-  let h=`<div class="tp-top">${logo(r)}<div><div class="tp-tk">${name(r)}</div><div class="tp-co">${r.c}</div></div><span class="lbl ${late?'sell">Sell':'buy">Buy'}</span></div>`;
+  $('#why-back').href='#t='+tid(r);$('#why-back').textContent='← Back to '+name(r);
+  let h=`<div class="why-top">${logo(r)}<div><div class="tp-tk">${name(r)}</div><div class="tp-co">${r.c}</div></div><span class="lbl ${late?'sell">Sell':'buy">Buy'}</span></div>`;
   h+=`<p class="intro">${late?'Trump’s account already <b>sold</b> this. You are too late to follow.':'Trump’s account <b>bought</b> this and no sale has been seen yet.'}</p>`;
   if(r.priced)h+=`<div id="tp-plot"></div><div class="small muted">▲ green = buy, ▼ red = sell, on the trade date (disclosed later). Hover a triangle for details.</div>`;
   h+='<ul class="story">'+tr.map(x=>{const v=x.side==='Buy'?'<b class="pos">bought</b>':'<b class="neg">sold</b>';
@@ -139,7 +156,7 @@ function renderTicker(r){
     if(x.p!=null&&r.last!=null){const ch=(r.last/x.p-1)*100;s+=` at $${fmt(x.p)}. Since then <b class="${ch>=0?'pos':'neg'}">${pct(ch)}</b> (now $${fmt(r.last)}, ${dus(r.lastd)}).`}else s+='. Private bond: no market price.';
     return `<li>${s} <span class="small muted">Disclosed ${dus(x.pub)} · <a href="${x.url}" target="_blank" rel="noopener">filing</a></span></li>`}).join('')+'</ul>';
   if(!late&&r.score!=null)h+=`<div class="sec"><h2>Trump score ${r.score}/100</h2><ul class="story"><li>Bought ${r.nb}× → ${Math.round(r.sp_b)}/40</li><li>At least ${rng('$'+r.mintot.toLocaleString('en-US'))} bought → ${Math.round(r.sp_a)}/30</li><li>Price move since last buy${r.since==null?' (no market price, counts as 0)':' '+pct(r.since)} → ${Math.round(r.sp_d)}/30</li>${r.partly?'<li>Possibly partly sold → −10</li>':''}</ul><p class="small muted">Shows how strongly Trump is in, not a guarantee of a rise.</p></div>`;
-  $('#tp').innerHTML=h;
+  $('#why').innerHTML=h;
   if(r.priced){const from='2026-06-01',s=series(t,from);Plotly.newPlot('tp-plot',[{x:s.x,y:s.y,type:'scatter',mode:'lines',line:{color:'#17607F',width:2.2},hovertemplate:'%{x|%b %d, %Y}: $%{y:.2f}<extra></extra>'},...markers(t,from)],{...LAY,yaxis:{title:{text:'Price (USD)'}},showlegend:false},CFG);}
 }
 route();
